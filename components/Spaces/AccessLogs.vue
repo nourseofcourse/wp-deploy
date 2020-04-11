@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <h1>Access Logs</h1>
   </div>
 </template>
 

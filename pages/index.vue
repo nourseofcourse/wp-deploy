@@ -13,18 +13,28 @@
 import Overview from '@/components/Spaces/Overview.vue';
 import BackupPoints from '@/components/Spaces/BackupPoints.vue';
 import ErrorLogs from '@/components/Spaces/ErrorLogs.vue';
+import AccessLogs from '@/components/Spaces/AccessLogs.vue';
+import Domains from '@/components/Spaces/Domains.vue';
+import SFTPUsers from '@/components/Spaces/SFTPUsers.vue';
+import SiteMigration from '@/components/Spaces/SiteMigration.vue';
+import Utilities from '@/components/Spaces/Utilities.vue';
 
 export default {
   data() {
     return {
-      tabs: ["Overview", "Error Logs", "Backup Points"],
+      tabs: ["Overview", "Domains", "Access Logs", "Error Logs", "Backup Points", "SFTP Users", "Site Migration", "Utilities"],
       selected: "Overview"
     }
   },
   components: {
     Overview,
     ErrorLogs,
-    BackupPoints
+    BackupPoints,
+    AccessLogs,
+    Domains,
+    SFTPUsers,
+    SiteMigration,
+    Utilities
   }
 }
 </script>

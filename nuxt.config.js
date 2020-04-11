@@ -1,3 +1,4 @@
+import webpack from 'webpack'
 
 export default {
   mode: 'universal',

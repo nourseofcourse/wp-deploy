@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <h1>Redirect Rules</h1>
   </div>
 </template>
 
